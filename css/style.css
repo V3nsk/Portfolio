@@ -42,7 +42,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 7%;
+    padding: 1.7rem 5%;
     display: flex;
     align-items: center;
     z-index: 100;
@@ -510,10 +510,12 @@ span{
 /* section contact design */
 .content h2{
     margin-bottom: 3rem;
+    
 }
 
 .contact form{
-    max-width: 70rem;
+    max-width: 50rem;
+    margin-top: 3rem;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
@@ -528,9 +530,9 @@ span{
 .contact form .input-box input,
 .contact form textarea{
     width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    border: .2rem solid var(--main-color);
+    padding: 1.1rem;
+    font-size: 1.4rem;
+    border: .15rem solid var(--main-color);
     color: var(--text-color);
     background: var(--bg-color);
     border-radius: .8rem;
